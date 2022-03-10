@@ -1,0 +1,740 @@
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+ @article{Irony-as-relevant-inappropriateness,
+title = {Irony as relevant inappropriateness},
+journal = {Journal of Pragmatics},
+volume = {32},
+number = {6},
+pages = {793-826},
+year = {2000},
+issn = {0378-2166},
+doi = {https://doi.org/10.1016/S0378-2166(99)00070-3},
+url = {https://www.sciencedirect.com/science/article/pii/S0378216699000703},
+author = {Salvatore Attardo},
+keywords = {Irony, Irony markers, Appropriateness, Relevance, Processing, Cooperative principle}
+}
+
+
+@ARTICLE{pattern,
+  author={Bouazizi, Mondher and Otsuki Ohtsuki, Tomoaki},
+  journal={IEEE Access}, 
+  title={A Pattern-Based Approach for Sarcasm Detection on Twitter}, 
+  year={2016},
+  volume={4},
+  number={},
+  pages={5477-5488},
+  doi={10.1109/ACCESS.2016.2594194}
+}
+
+@article{baseline2,
+author = {Mukherjee, Shubhadeep and BALA, PRADIP},
+year = {2017},
+month = {08},
+pages = {},
+title = {Detecting Sarcasm in Customer Tweets: An NLP based approach},
+volume = {117},
+journal = {Industrial Management \& Data Systems},
+doi = {10.1108/IMDS-06-2016-0207}
+}
+
+@article{From-humor-recognition-to-irony-detection,
+title = {From humor recognition to irony detection: The figurative language of social media},
+journal = {Data \& Knowledge Engineering},
+volume = {74},
+pages = {1-12},
+year = {2012},
+note = {Applications of Natural Language to Information Systems},
+issn = {0169-023X},
+doi = {https://doi.org/10.1016/j.datak.2012.02.005},
+url = {https://www.sciencedirect.com/science/article/pii/S0169023X12000237},
+author = {Antonio Reyes and Paolo Rosso and Davide Buscaldi},
+}
+
+% We investigate the impact of lexical and pragmatic factors on machine learning effectiveness for identifying sarcastic utterances and we compare the performance of machine learning techniques and human judges on this task.
+% History
+@inproceedings{baseline,
+author = {González-Ibáñez, Roberto and Muresan, Smaranda and Wacholder, Nina},
+year = {2011},
+month = {01},
+pages = {581-586},
+title = {Identifying Sarcasm in Twitter: A Closer Look.}
+}
+
+% Two studies using multimodal stimuli collected from television situation comedies show that there exist markers of irony and sarcasm which involve intonational and visualclues
+@article{markers,
+author = {},
+doi = {doi:10.1515/humr.2003.012},
+url = {https://doi.org/10.1515/humr.2003.012},
+title = {Multimodal markers of irony and sarcasm},
+journal = {},
+number = {2},
+volume = {16},
+year = {2003},
+pages = {243--260}
+}
+
+% psycholinguistic study on how humans comprehend saracsm
+@article{psycholinguistics,
+  title={On the psycholinguistics of sarcasm.},
+  author={Raymond W. Gibbs},
+  journal={Journal of Experimental Psychology: General},
+  year={1986},
+  volume={115},
+  pages={3-15}
+}
+
+% empirical studies on the differences between irony and sarcasm
+@InProceedings{diff_irony_sarcasm,
+author="Ling, Jennifer
+and Klinger, Roman",
+editor="Sack, Harald
+and Rizzo, Giuseppe
+and Steinmetz, Nadine
+and Mladeni{\'{c}}, Dunja
+and Auer, S{\"o}ren
+and Lange, Christoph",
+title="An Empirical, Quantitative Analysis of the Differences Between Sarcasm and Irony",
+booktitle="The Semantic Web",
+year="2016",
+publisher="Springer International Publishing",
+address="Cham",
+pages="203--216",
+isbn="978-3-319-47602-5"
+}
+
+% How to be sarcastic
+@article{how_sarcasm,
+	journal = {Journal of Experimental Psychology: General},
+	author = {Roger J. Kreuz and Sam Glucksberg},
+	volume = {118},
+	year = {1989},
+	doi = {10.1037/0096-3445.118.4.374},
+	title = {How to Be Sarcastic: The Echoic Reminder Theory of Verbal Irony},
+	pages = {374--386},
+	number = {4}
+}
+
+@article{The_pragmatics_of_verbal_irony,
+author = {Wilson, Deirdre},
+year = {2006},
+month = {10},
+pages = {1722-1743},
+title = {The pragmatics of verbal irony: Echo or pretence?},
+volume = {116},
+journal = {Lingua},
+doi = {10.1016/j.lingua.2006.05.001}
+}
+
+@article{Psychological_aspects_of_irony_understanding,
+title = {Psychological aspects of irony understanding},
+journal = {Journal of Pragmatics},
+volume = {16},
+number = {6},
+pages = {523-530},
+year = {1991},
+issn = {0378-2166},
+doi = {https://doi.org/10.1016/0378-2166(91)90101-3},
+url = {https://www.sciencedirect.com/science/article/pii/0378216691901013},
+author = {Raymond W. Gibbs and Jennifer O'Brien},
+}
+
+@inproceedings{ICWSM,
+author = {Tsur, Oren and Davidov, Dmitry and Rappoport, Ari},
+year = {2010},
+month = {01},
+pages = {},
+title = {ICWSM - A Great Catchy Name: Semi-Supervised Recognition of Sarcastic Sentences in Online Product Reviews.},
+journal = {ICWSM 2010 - Proceedings of the 4th International AAAI Conference on Weblogs and Social Media}
+}
+
+@inproceedings{Semi-Supervised_Recognition_of_Sarcastic_Sentences,
+author = {Davidov, Dmitry and Tsur, Oren and Rappoport, Ari},
+title = {Semi-Supervised Recognition of Sarcastic Sentences in Twitter and Amazon},
+year = {2010},
+isbn = {9781932432831},
+publisher = {Association for Computational Linguistics},
+address = {USA},
+booktitle = {Proceedings of the Fourteenth Conference on Computational Natural Language Learning},
+pages = {107–116},
+numpages = {10},
+location = {Uppsala, Sweden},
+series = {CoNLL '10}
+}
+
+@InProceedings{imbalanced,
+author="Liu, Peng
+and Chen, Wei
+and Ou, Gaoyan
+and Wang, Tengjiao
+and Yang, Dongqing
+and Lei, Kai",
+editor="Li, Feifei
+and Li, Guoliang
+and Hwang, Seung-won
+and Yao, Bin
+and Zhang, Zhenjie",
+title="Sarcasm Detection in Social Media Based on Imbalanced Classification",
+booktitle="Web-Age Information Management",
+year="2014",
+publisher="Springer International Publishing",
+address="Cham",
+pages="459--471",
+isbn="978-3-319-08010-9"
+}
+
+%% SEHR WICHTIG !
+@article{Automatic_Sarcasm_Detection,
+author = {Joshi, Aditya and Bhattacharyya, Pushpak and Carman, Mark J.},
+title = {Automatic Sarcasm Detection: A Survey},
+year = {2017},
+issue_date = {September 2018},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+volume = {50},
+number = {5},
+issn = {0360-0300},
+url = {https://doi.org/10.1145/3124420},
+doi = {10.1145/3124420},
+journal = {ACM Comput. Surv.},
+month = {sep},
+articleno = {73},
+numpages = {22},
+keywords = {opinion, sentiment analysis, Sarcasm, sentiment, sarcasm detection}
+}
+
+% sehr interessant !
+@INPROCEEDINGS{Sarcasm_detection_of_tweets,
+  author={Jain, Tanya and Agrawal, Nilesh and Goyal, Garima and Aggrawal, Niyati},
+  booktitle={2017 Tenth International Conference on Contemporary Computing (IC3)}, 
+  title={Sarcasm detection of tweets: A comparative study}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={1-6},
+  doi={10.1109/IC3.2017.8284317}}
+  
+  @INPROCEEDINGS{rnn,
+  author={Porwal, Saurabh and Ostwal, Gaurav and Phadtare, Anagha and Pandey, Mohini and Marathe, Manisha V.},
+  booktitle={2018 Second International Conference on Intelligent Computing and Control Systems (ICICCS)}, 
+  title={Sarcasm Detection Using Recurrent Neural Network}, 
+  year={2018},
+  volume={},
+  number={},
+  pages={746-748},
+  doi={10.1109/ICCONS.2018.8663147}}
+  
+
+
+@article{Sarcasm-as-theater,
+author = {JOHN HAIMAN},
+doi = {doi:10.1515/cogl.1990.1.2.181},
+url = {https://doi.org/10.1515/cogl.1990.1.2.181},
+title = {Sarcasm as theater},
+journal = {},
+number = {2},
+volume = {1},
+year = {1990},
+pages = {181--206}
+}
+
+@book{Vocal-Cues-for-Irony-in-English,
+  title={Vocal Cues for Irony in English},
+  author={Schaffer, R.R.},
+  url={https://books.google.de/books?id=k9XSnQEACAAJ},
+  year={1982},
+  publisher={Ohio State University.}
+}
+
+@article{Irony-and-the-use-mention-distinction,
+author = {Sperber, Dan and Wilson, Deirdre},
+year = {1981},
+month = {01},
+pages = {},
+title = {Irony and the use-mention distinction}
+}
+
+@article{The-Role-of-Conversation-Context-for-Sarcasm-Detection-in-Online-Interactions,
+  author    = {Debanjan Ghosh and
+               Alexander Richard Fabbri and
+               Smaranda Muresan},
+  title     = {The Role of Conversation Context for Sarcasm Detection in Online Interactions},
+  journal   = {CoRR},
+  volume    = {abs/1707.06226},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1707.06226},
+  eprinttype = {arXiv},
+  eprint    = {1707.06226},
+  timestamp = {Mon, 13 Aug 2018 16:49:06 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/GhoshFM17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@InProceedings{Twitter-Sarcasm-Detection-Exploiting-a-Context-Based-Model,
+author="Wang, Zelin
+and Wu, Zhijian
+and Wang, Ruimin
+and Ren, Yafeng",
+title="Twitter Sarcasm Detection Exploiting a Context-Based Model",
+booktitle="Web Information Systems Engineering -- WISE 2015",
+year="2015",
+publisher="Springer International Publishing",
+address="Cham",
+pages="77--91",
+isbn="978-3-319-26190-4"
+}
+
+@INPROCEEDINGS{The-effect-of-preprocessing-techniques-on-Twitter-sentiment-analysis,
+  author={Krouska, Akrivi and Troussas, Christos and Virvou, Maria},
+  booktitle={2016 7th International Conference on Information, Intelligence, Systems   Applications (IISA)}, 
+  title={The effect of preprocessing techniques on Twitter sentiment analysis}, 
+  year={2016},
+  volume={},
+  number={},
+  pages={1-5},
+  doi={10.1109/IISA.2016.7785373}}
+  
+@article{Analysis-of-Twitter-Specific-Preprocessing-Technique-for-Tweets,
+title = {Analysis of Twitter Specific Preprocessing Technique for Tweets},
+journal = {Procedia Computer Science},
+volume = {165},
+pages = {245-251},
+year = {2019},
+note = {2nd International Conference on Recent Trends in Advanced Computing ICRTAC -DISRUP - TIV INNOVATION , 2019 November 11-12, 2019},
+issn = {1877-0509},
+doi = {https://doi.org/10.1016/j.procs.2020.01.083},
+url = {https://www.sciencedirect.com/science/article/pii/S1877050920300910},
+author = {Dharini Ramachandran and R Parvathi},
+keywords = {Preprocessing, Twitter analysis, Tweet NLP, Social Media Text Analytics, NLTK preprocessing},
+}
+
+@INPROCEEDINGS{Effective-Text-Data-Preprocessing-Technique-for-Sentiment-Analysis-in-Social-Media-Data,
+  author={Pradha, Saurav and Halgamuge, Malka N. and Tran Quoc Vinh, Nguyen},
+  booktitle={2019 11th International Conference on Knowledge and Systems Engineering (KSE)}, 
+  title={Effective Text Data Preprocessing Technique for Sentiment Analysis in Social Media Data}, 
+  year={2019},
+  volume={},
+  number={},
+  pages={1-8},
+  doi={10.1109/KSE.2019.8919368}}
+  
+  @article{Efficient-Algorithms-for-Preprocessing-and-Stemming-of-Tweets-in-a-Sentiment-Analysis-System,
+author = {Khafaji, Hussein and Habeeb, Areej},
+year = {2017},
+month = {05},
+pages = {44-50},
+title = {Efficient Algorithms for Preprocessing and Stemming of Tweets in a Sentiment Analysis System},
+volume = {19},
+journal = {IOSR Journal of Computer Engineering},
+doi = {10.9790/0661-1903024450}
+}
+
+@article{A-multidimensional-approach-for-detecting-irony-in-Twitter,
+author = {Reyes, Antonio and Rosso, Paolo and Veale, Tony},
+year = {2013},
+month = {03},
+pages = {},
+title = {A multidimensional approach for detecting irony in Twitter},
+volume = {47},
+journal = {Language Resources and Evaluation},
+doi = {10.1007/s10579-012-9196-x}
+}
+
+@inproceedings{Clues-for-Detecting-Irony-in-User-Generated-Contents,
+author = {Carvalho, Paula and Sarmento, Lu\'{\i}s and Silva, M\'{a}rio J. and de Oliveira, Eug\'{e}nio},
+title = {Clues for Detecting Irony in User-Generated Contents: Oh...!! It's "so Easy" ;-)},
+year = {2009},
+isbn = {9781605588056},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/1651461.1651471},
+doi = {10.1145/1651461.1651471},
+booktitle = {Proceedings of the 1st International CIKM Workshop on Topic-Sentiment Analysis for Mass Opinion},
+pages = {53–56},
+numpages = {4},
+keywords = {user-generated content, irony detection, opinion mining},
+location = {Hong Kong, China},
+series = {TSA '09}
+}
+
+@book{goodfellow2016deep,
+  title={Deep Learning},
+  author={Goodfellow, I. and Bengio, Y. and Courville, A.},
+  isbn={9780262337373},
+  series={Adaptive Computation and Machine Learning series},
+  url={https://books.google.de/books?id=omivDQAAQBAJ},
+  year={2016},
+  publisher={MIT Press}
+}
+
+@inproceedings{Sarcasm-Detection-on-Czech-and-English-Twitter,
+  title={Sarcasm Detection on Czech and English Twitter},
+  author={Tomas Ptacek and Ivan Habernal and Jun Hong},
+  booktitle={COLING},
+  year={2014}
+}
+
+@inproceedings{The-perfect-solution-for-detecting-sarcasm-in-tweets-not,
+author = {Liebrecht, Christine and Kunneman, Florian and Van den Bosch, Antal},
+year = {2013},
+month = {06},
+pages = {29-37},
+title = {The perfect solution for detecting sarcasm in tweets \#not}
+}
+
+@INPROCEEDINGS{Parsing-based-sarcasm-sentiment-recognition-in-Twitter-data,  author={Bharti, Santosh Kumar and Babu, Korra Sathya and Jena, Sanjay Kumar},  booktitle={2015 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)},   title={Parsing-based sarcasm sentiment recognition in Twitter data},   year={2015},  volume={},  number={},  pages={1373-1380},  doi={10.1145/2808797.2808910}}
+
+@article{Modelling-Context-with-User-Embeddings-for-Sarcasm-Detection-in-Social-Media,
+  author    = {Silvio Amir and
+               Byron C. Wallace and
+               Hao Lyu and
+               Paula Carvalho and
+               M{\'{a}}rio J. Silva},
+  title     = {Modelling Context with User Embeddings for Sarcasm Detection in Social Media},
+  journal   = {CoRR},
+  volume    = {abs/1607.00976},
+  year      = {2016},
+  url       = {http://arxiv.org/abs/1607.00976},
+  eprinttype = {arXiv},
+  eprint    = {1607.00976},
+  pages = {167-177},
+  timestamp = {Tue, 25 Aug 2020 13:28:42 +0200},
+  biburl    = {https://dblp.org/rec/journals/corr/AmirWLCS16.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+%original transformer paper
+@article{transformers,
+  author    = {Ashish Vaswani and
+               Noam Shazeer and
+               Niki Parmar and
+               Jakob Uszkoreit and
+               Llion Jones and
+               Aidan N. Gomez and
+               Lukasz Kaiser and
+               Illia Polosukhin},
+  title     = {Attention Is All You Need},
+  journal   = {CoRR},
+  volume    = {abs/1706.03762},
+  year      = {2017},
+  url       = {http://arxiv.org/abs/1706.03762},
+  eprinttype = {arXiv},
+  eprint    = {1706.03762},
+  timestamp = {Sat, 23 Jan 2021 01:20:40 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/VaswaniSPUJGKP17.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{A-Transformer-based-approach-to-Irony-and-Sarcasm-detection,
+  author    = {Rolandos Alexandros Potamias and
+               Georgios Siolas and
+               Andreas{-}Georgios Stafylopatis},
+  title     = {A Transformer-based approach to Irony and Sarcasm detection},
+  journal   = {CoRR},
+  volume    = {abs/1911.10401},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1911.10401},
+  eprinttype = {arXiv},
+  eprint    = {1911.10401},
+  timestamp = {Tue, 03 Dec 2019 14:15:54 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1911-10401.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}
+
+@article{BERT,
+  author    = {Jacob Devlin and
+               Ming{-}Wei Chang and
+               Kenton Lee and
+               Kristina Toutanova},
+  title     = {{BERT:} Pre-training of Deep Bidirectional Transformers for Language Understanding},
+  journal   = {CoRR},
+  volume    = {abs/1810.04805},
+  year      = {2018},
+  url       = {http://arxiv.org/abs/1810.04805},
+  eprinttype = {arXiv},
+  eprint    = {1810.04805},
+  timestamp = {Tue, 30 Oct 2018 20:39:56 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1810-04805.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org},
+  pages     = {4171--4186}
+}
+
+@inproceedings{Who-cares-about-sarcastic-tweets?,
+author = {Maynard, Diana and Greenwood, M.A.},
+year = {2014},
+month = {03},
+pages = {},
+title = {Who cares about sarcastic tweets? Investigating the impact of sarcasm on sentiment analysis}
+}
+
+@inproceedings{Sarcastic-or-Not,
+  title={Sarcastic or Not: Word Embeddings to Predict the Literal or Sarcastic Meaning of Words},
+  author={Debanjan Ghosh and Weiwei Guo and Smaranda Muresan},
+  booktitle={EMNLP},
+  year={2015}
+}
+
+@inproceedings{eye-patterns,
+    title = "Harnessing Cognitive Features for Sarcasm Detection",
+    author = "Mishra, Abhijit  and
+      Kanojia, Diptesh  and
+      Nagar, Seema  and
+      Dey, Kuntal  and
+      Bhattacharyya, Pushpak",
+    booktitle = "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = aug,
+    year = "2016",
+    address = "Berlin, Germany",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/P16-1104",
+    doi = "10.18653/v1/P16-1104",
+    pages = "1095--1104",
+}
+
+@INPROCEEDINGS {Self-Deprecating-Sarcasm-Detection,
+author={Abulaish, Muhammad and Kamal, Ashraf},
+booktitle = {2018 IEEE/WIC/ACM International Conference on Web Intelligence (WI)},
+title = {Self-Deprecating Sarcasm Detection: An Amalgamation of Rule-Based and Machine Learning Approach},
+year = {2018},
+volume = {},
+issn = {},
+pages = {574-579},
+keywords = {feature extraction;twitter;support vector machines;machine learning;semantics;decision trees;sentiment analysis},
+doi = {10.1109/WI.2018.00-35},
+url = {https://doi.ieeecomputersociety.org/10.1109/WI.2018.00-35},
+publisher = {IEEE Computer Society},
+address = {Los Alamitos, CA, USA},
+month = {dec}
+}
+
+@inproceedings{czech,
+  title={Sarcasm Detection on Czech and English Twitter},
+  author={Tom{\'a}s Pt{\'a}cek and Ivan Habernal and Jun Hong},
+  booktitle={COLING},
+  year={2014}
+}
+
+@INPROCEEDINGS{arabic,  author={Al-Ghadhban, Dana and Alnkhilan, Eman and Tatwany, Lamma and Alrazgan, Muna},  booktitle={2017 International Conference on Engineering   MIS (ICEMIS)},   title={Arabic sarcasm detection in Twitter},   year={2017},  publisher={IEEE},  address={USA},  pages={1-7},  doi={10.1109/ICEMIS.2017.8272990}}
+
+@inproceedings{dutch,
+author = {Liebrecht, Christine and Kunneman, Florian and Van den Bosch, Antal},
+year = {2013},
+month = {06},
+pages = {29-37},
+title = {The perfect solution for detecting sarcasm in tweets \#not}
+}
+
+@article{bertje,
+  author    = {Wietse de Vries and
+               Andreas van Cranenburgh and
+               Arianna Bisazza and
+               Tommaso Caselli and
+               Gertjan van Noord and
+               Malvina Nissim},
+  title     = {BERTje: {A} Dutch {BERT} Model},
+  journal   = {CoRR},
+  volume    = {abs/1912.09582},
+  year      = {2019},
+  url       = {http://arxiv.org/abs/1912.09582},
+  eprinttype = {arXiv},
+  eprint    = {1912.09582},
+  timestamp = {Fri, 03 Jan 2020 16:10:45 +0100},
+  biburl    = {https://dblp.org/rec/journals/corr/abs-1912-09582.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
+}

@@ -1,0 +1,91 @@
+baseline:
+
+\cite{A-multidimensional-approach-for-detecting-irony-in-Twitter}
+Acc: /
+Precision: 78%
+Recall: 74%
+F-Measure: 0,76
+data: Tweets
+
+\cite{Clues-for-Detecting-Irony-in-User-Generated-Contents}
+Acc: /
+Precision: 61,07%
+Recall: /
+F-Measure: /
+data: user comments in online-newspaper
+
+
+
+pattern-based:
+
+\cite{pattern}
+Acc: 83,1%
+Precision: 91,1%
+Recall: 73,4%
+F-Measure: 81,13%
+data: Tweets (annotated by #sarcasm)
+
+
+
+rule-based:
+
+\cite{Who-cares-about-sarcastic-tweets?}
+Acc: 
+Precision: 91,03%
+Recall: 91,04%
+F-Measure: 91,03%
+data: Tweets (annotated manually)
+
+\cite{Self-Deprecating-Sarcasm-Detection}
+Acc: 
+Precision: 0,97
+Recall: 0,92
+F-Measure: 0,95
+data: Tweets (annotated manually)
+
+
+
+learning-based:
+
+\cite{ICWSM}
+Acc: 
+Precision: 0,766
+Recall: 0,813
+F-Measure: 0,788
+data: Amazon Reviews (semi-supervised, annotated manually)
+
+\cite{Sarcastic-or-Not}
+Acc: 
+Precision: 87,0%
+Recall: 85,6%
+F-Measure: 86,3%
+data: Twitter (annotated with hashtags)
+
+
+
+deep learning:
+
+\cite{Modelling-Context-with-User-Embeddings-for-Sarcasm-Detection-in-Social-Media}
+Acc: 0,872
+Precision: 
+Recall:
+F-Measure:
+data: Tweets (existing datasets)
+
+\cite{A-Transformer-based-approach-to-Irony-and-Sarcasm-detection}
+Acc: 0,91
+Precision: 0,90 
+Recall: 0,90
+F-Measure: 0,90
+data: 4 existing datasets
+
+
+
+out-of-the-box:
+
+\cite{eye-patterns}
+Acc: 
+Precision: 0,765
+Recall: 0,753
+F-Measure: 0,757
+data: short-texts (own dataset)
